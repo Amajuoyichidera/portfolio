@@ -5,7 +5,7 @@
   }
   
   .navbar {
-    /* background: #19191a; */
+    background: white;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -14,11 +14,12 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
   }
   
   .navbar-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80px;
   }
   

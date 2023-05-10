@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { FaBars, FaTimes, FaGithub, } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
-import david from '../assets/david.png'
+import david from '../assets/david.png';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -54,10 +54,31 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
+                  Tech Stack 
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Projects
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
                   Contact 
                 </NavLink>
               </li>
-              <FaGithub className="git" />
             </ul>
           </div>
         </nav>

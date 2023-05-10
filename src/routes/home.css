@@ -1,0 +1,89 @@
+.myimg {
+    height: 40vh;
+    border-radius: 50%;
+    border: 5px solid #CB3C61;
+}
+.intro {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.hi {
+    padding-top: 50px;
+}
+.my {
+    text-align: center;
+    padding-bottom: 50px;
+}
+figure {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+figure img {
+    height: 8vh;
+}
+.pro {
+    text-align: center;
+    padding-top: 100px;
+}
+.one, .one1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+.one2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 100px;
+}
+.live {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.link {
+    display: flex;
+    gap: 10px;
+}
+.one img {
+    height: 30vh;
+}
+.one2 img {
+    height: 30vh;
+}
+.one1 img {
+    height: 40vh;
+}
+.gpt {
+    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+    border-radius: 10px;
+}
+.gpt img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.project {
+    padding: 20px;
+}
+ion-icon {
+    margin-top: 5px;
+}
+.hand {
+    height: 5vh;
+}
+h1 {
+    font-size: 30px;
+}
+span {
+    color: #CB3C61;
+}
+.my p {
+    font-size: 20px;
+}
+.pro p {
+    font-size: 20px;
+}

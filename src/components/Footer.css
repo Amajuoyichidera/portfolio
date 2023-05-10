@@ -1,0 +1,33 @@
+.logo {
+    height: 12vh;
+}
+.footOne {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    border-bottom: 1px solid #000;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    gap: 200px;
+}
+.footTwo {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+.footThree {
+    display: flex;
+    gap: 20px;
+}
+.footFour {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 220px;
+}
+.footFive {
+    display: flex;
+    gap: 20px;
+}
