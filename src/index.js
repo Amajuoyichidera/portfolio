@@ -13,14 +13,30 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import ErrorPage from "./routes/ErrorPage";
+import Stack from './routes/Stack';
 import Footer from "./components/Footer";
+import Loader from './components/Loader';
+import { useState, useEffect } from 'react';
+import Project from "./routes/Project";
 
 const AppLayout = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <>
-      <Navbar />
+    {loading ? <Loader /> : <div>
+    <Navbar />
       <Outlet />
       <Footer />
+    </div> }
+      
     </>
   );
 };
@@ -41,6 +57,14 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "stack",
+        element: <Stack />,
+      },
+      {
+        path: "project",
+        element: <Project />,
       },
     ],
   },

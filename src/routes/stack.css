@@ -1,0 +1,13 @@
+.my {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+figure {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+figure img {
+    height: 8vh;
+}
