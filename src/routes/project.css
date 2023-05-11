@@ -72,14 +72,14 @@ ion-icon {
        flex-direction: column;
         gap: 40px;
         padding-top: 40px;
-        margin-left: 35px;
+        margin-left: 37px;
     }
     .one2 {
         flex-direction: column;
         justify-content: center;
         gap: 40px;
         padding-top: 40px;
-        margin-left: 35px;
+        margin-left: 37px;
     }
     .one img {
         width: 345px;
@@ -105,12 +105,12 @@ ion-icon {
    .gpt1 img {
     width: 320px;
     object-fit: contain;
-    margin-top: -35px;
+    /* margin-top: -35px; */
    }
    .gpt2 img {
      width: 320px;
      object-fit: contain;
-     margin-top: -35px;
+     /* margin-top: -35px; */
    }
    .gpt2 {
     width: 320px;
