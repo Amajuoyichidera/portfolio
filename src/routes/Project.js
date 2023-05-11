@@ -25,9 +25,9 @@ function Project() {
 
   {/* slide one */}
 
-    <section className="one2"  data-aos="zoom-in" data-aos-duration="2000">
+    <section className="one2">
 
-    <div className="gpt1">
+    <div className="gpt1" data-aos="zoom-in" data-aos-duration="2000">
       <img src={gpt} alt={gpt} />
       <section className="project">
         <h2>Gpt3</h2>
@@ -50,7 +50,7 @@ function Project() {
       
     </div>
 
-    <div className="gpt2">
+    <div className="gpt2" data-aos="zoom-in" data-aos-duration="2000">
      <img src={hoobank} alt={hoobank} />
      <section className="project">
       <h2>Hoobank</h2>
@@ -72,7 +72,7 @@ function Project() {
 
     </div>
 
-    <div className="gpt2">
+    <div className="gpt2" data-aos="zoom-in" data-aos-duration="2000">
      <img src={tokwehu} alt={tokwehu} />
      <section className="project">
       <h2>Tokwehu</h2>
@@ -99,9 +99,9 @@ function Project() {
     {/* slide two */}
 
 
-    <section className="one"  data-aos="zoom-in" data-aos-duration="2000">
+    <section className="one">
 
-<div className="gpt">
+<div className="gpt" data-aos="zoom-in" data-aos-duration="2000">
 <img src={flex} alt={flex} />
 <section className="project">
 <h2>FlexIT</h2>
@@ -123,7 +123,7 @@ function Project() {
 
 </div>
 
-<div className="gpt">
+<div className="gpt" data-aos="zoom-in" data-aos-duration="2000">
 <img src={homecare} alt={homecare} />
 <section className="project">
 <h2>Optimum Home Health Care</h2>
@@ -145,7 +145,7 @@ function Project() {
 
 </div>
 
-<div className="gpt">
+<div className="gpt" data-aos="zoom-in" data-aos-duration="2000">
 <img src={sol} alt={sol} />
 <section className="project">
 <h2>Solmusic</h2>
@@ -172,9 +172,9 @@ function Project() {
 
  {/* slide three */}
 
-    <section className="one"  data-aos="zoom-in" data-aos-duration="2000">
+    <section className="one">
 
-    <div className="gpt">
+    <div className="gpt" data-aos="zoom-in" data-aos-duration="2000">
      <img src={paga} alt={paga} />
      <section className="project">
       <h2>Paga</h2>
@@ -196,7 +196,7 @@ function Project() {
 
     </div>
 
-    <div className="gpt">
+    <div className="gpt" data-aos="zoom-in" data-aos-duration="2000">
      <img src={paypal} alt={paypal} />
      <section className="project">
       <h2>Paypal</h2>
@@ -218,7 +218,7 @@ function Project() {
 
     </div>
 
-    <div className="gpt">
+    <div className="gpt" data-aos="zoom-in" data-aos-duration="2000">
      <img src={hiaem} alt={hiaem} />
      <section className="project">
       <h2>HIAEM</h2>
@@ -246,9 +246,9 @@ function Project() {
 
  {/* slide four */}
 
-    <section className="one1"  data-aos="zoom-in" data-aos-duration="2000">
+    <section className="one1">
 
-    <div className="gpt">
+    <div className="gpt"  data-aos="zoom-in" data-aos-duration="2000">
      <img src={easy} alt={easy} />
      <section className="fiber">
       <h2>Easy bank</h2>
@@ -270,7 +270,7 @@ function Project() {
 
     </div>
 
-    <div className="gpt">
+    <div className="gpt"  data-aos="zoom-in" data-aos-duration="2000">
      <img src={blogr} alt={blogr} />
      <section className="fiber">
       <h2>Blogr</h2>
@@ -299,9 +299,9 @@ function Project() {
 
     {/* slide five */}
 
-    <section className="one1"  data-aos="zoom-in" data-aos-duration="2000">
+    <section className="one1">
 
-    <div className="gpt">
+    <div className="gpt"  data-aos="zoom-in" data-aos-duration="2000">
      <img src={fiber} alt={fiber} />
      <section className="fiber">
       <h2>Fiber</h2>
@@ -324,7 +324,7 @@ function Project() {
     </div>
 
 
-    <div className="gpt">
+    <div className="gpt"  data-aos="zoom-in" data-aos-duration="2000">
      <img src={book} alt={book} />
      <section className="fiber">
       <h2>Bookmark</h2>
