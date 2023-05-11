@@ -3,6 +3,9 @@
     text-align: center;
     line-height: 40px;
 }
+.contact h1 {
+    padding-bottom: 20px;
+}
 @media (max-width: 768px) {
     .contact {
         padding-left: 20px;
