@@ -72,14 +72,14 @@ ion-icon {
        flex-direction: column;
         gap: 40px;
         padding-top: 40px;
-        margin-left: 37px;
+        margin-left: 33px;
     }
     .one2 {
         flex-direction: column;
         justify-content: center;
         gap: 40px;
         padding-top: 40px;
-        margin-left: 37px;
+        margin-left: 33px;
     }
     .one img {
         width: 345px;
