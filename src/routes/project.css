@@ -79,13 +79,19 @@ ion-icon {
         margin-left: 35px;
     }
     .one img {
-        height: 20vh;
+        width: 345px;
+        object-fit: contain;
+        margin-top: -35px;
     }
     .one2 img {
-        height: 20vh;
+        width: 345px;
+        object-fit: contain;
+        margin-top: -35px;
     }
     .one1 img {
-        height: 20vh;
+        width: 345px;
+        object-fit: contain;
+        margin-top: -70px;
     }   
     .gpt {
         width: 345px;
@@ -94,12 +100,22 @@ ion-icon {
         width: 320px;
     }
    .gpt1 img {
-    height: 22vh;
+    width: 320px;
+    object-fit: contain;
+    margin-top: -35px;
    }
    .gpt2 img {
-    height: 20vh;
+     width: 320px;
+     object-fit: contain;
+     margin-top: -35px;
    }
    .gpt2 {
     width: 320px;
+   }
+   .project {
+     margin-top: -30px;
+   }
+   .fiber {
+    margin-top: -60px;
    }
 }

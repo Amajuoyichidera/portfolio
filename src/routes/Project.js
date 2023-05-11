@@ -250,7 +250,7 @@ function Project() {
 
     <div className="gpt">
      <img src={easy} alt={easy} />
-     <section className="project">
+     <section className="project fiber">
       <h2>Easy bank</h2>
       <p>this is a sample</p>
       <p> <span>Tech Stack:</span> Html, css, javascript, react </p>
@@ -272,7 +272,7 @@ function Project() {
 
     <div className="gpt">
      <img src={blogr} alt={blogr} />
-     <section className="project">
+     <section className="project fiber">
       <h2>Blogr</h2>
       <p>this is a sample</p>
       <p> <span>Tech Stack:</span> Html, css, javascript, react </p>
@@ -303,7 +303,7 @@ function Project() {
 
     <div className="gpt">
      <img src={fiber} alt={fiber} />
-     <section className="project">
+     <section className="project fiber">
       <h2>Fiber</h2>
       <p>this is a sample</p>
       <p> <span>Tech Stack:</span> Html, css, javascript, react </p>
@@ -326,7 +326,7 @@ function Project() {
 
     <div className="gpt">
      <img src={book} alt={book} />
-     <section className="project">
+     <section className="project fiber">
       <h2>Bookmark</h2>
       <p>this is a sample</p>
       <p> <span>Tech Stack:</span> Html, css, javascript, react </p>
