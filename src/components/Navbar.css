@@ -99,11 +99,12 @@
     }
   
     .nav-menu.active {
-      background: #19191a;
+      background: white;
       left: 0;
       opacity: 1;
       transition: all 0.6s ease;
       z-index: 1;
+      box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
     }
   
     .nav-links {
@@ -127,13 +128,6 @@
       width: 100%;
     }
   
-    .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
-    }
-  
     .menu-icon {
       display: block;
       position: absolute;
@@ -142,5 +136,14 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
+    }
+  }
+
+
+  @media (max-width: 768px ) {
+    .navbar-logo {
+      height: 10vh;
+      margin-top: 10px;
+      margin-left: -50px;
     }
   }

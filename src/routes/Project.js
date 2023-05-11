@@ -27,7 +27,7 @@ function Project() {
 
     <section className="one2"  data-aos="zoom-in" data-aos-duration="2000">
 
-    <div className="gpt">
+    <div className="gpt1">
       <img src={gpt} alt={gpt} />
       <section className="project">
         <h2>Gpt3</h2>
@@ -50,7 +50,7 @@ function Project() {
       
     </div>
 
-    <div className="gpt">
+    <div className="gpt2">
      <img src={hoobank} alt={hoobank} />
      <section className="project">
       <h2>Hoobank</h2>
@@ -72,7 +72,7 @@ function Project() {
 
     </div>
 
-    <div className="gpt">
+    <div className="gpt2">
      <img src={tokwehu} alt={tokwehu} />
      <section className="project">
       <h2>Tokwehu</h2>

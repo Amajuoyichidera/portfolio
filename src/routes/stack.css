@@ -11,3 +11,12 @@ figure {
 figure img {
     height: 8vh;
 }
+
+@media (max-width: 768px) {
+    figure img {
+        height: 4vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit : cover;
+    }
+}

@@ -15,3 +15,9 @@
     transform: translate(-50%, -50%);
     height: 50vh;
   }
+
+  @media (max-width: 768px) {
+    .preloader img {
+      height: 40vh;
+    }
+  }

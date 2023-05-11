@@ -36,7 +36,23 @@
     box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
     border-radius: 10px;
 }
+.gpt1 {
+    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+    border-radius: 10px;
+}
+.gpt2 {
+    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+    border-radius: 10px;
+}
 .gpt img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.gpt1 img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.gpt2 img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -45,4 +61,45 @@
 }
 ion-icon {
     margin-top: 5px;
+}
+
+
+@media (max-width: 768px ) {
+    .one, .one1 {
+       flex-direction: column;
+        gap: 40px;
+        padding-top: 40px;
+        margin-left: 22px;
+    }
+    .one2 {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 40px;
+        margin-left: 35px;
+    }
+    .one img {
+        height: 20vh;
+    }
+    .one2 img {
+        height: 20vh;
+    }
+    .one1 img {
+        height: 20vh;
+    }   
+    .gpt {
+        width: 345px;
+    }
+    .one2 .gpt1 {
+        width: 320px;
+    }
+   .gpt1 img {
+    height: 22vh;
+   }
+   .gpt2 img {
+    height: 20vh;
+   }
+   .gpt2 {
+    width: 320px;
+   }
 }
